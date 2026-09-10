@@ -1,5 +1,3 @@
-# ProbashiShield
-
 # 🛡️ ProbashiShield - AI-Powered Exploitative Clause Detection
 
 Machine Learning and Deep Learning models for detecting exploitative clauses in German employment contracts for Bangladeshi expatriate workers.
@@ -11,7 +9,9 @@ Machine Learning and Deep Learning models for detecting exploitative clauses in 
 Total Clauses: **886**  
 Labels: **valid**, **unfair**, **void**
 
-![Label Distribution](outputs/label_distribution.png)
+<p align="center">
+  <img src="label_distribution.png" alt="Label Distribution" width="800">
+</p>
 
 ---
 
@@ -27,33 +27,63 @@ Labels: **valid**, **unfair**, **void**
 
 🏆 **Best Model:** Logistic Regression (F1-Score: 0.8081)
 
-![Model Comparison](confusion_matrix.png)
+<p align="center">
+  <img src="model_comparison.png" alt="Model Comparison" width="800">
+</p>
 
 ---
 
 ## 📈 Confusion Matrix (Logistic Regression)
 
-![Confusion Matrix](outputs/confusion_matrix.png)
+<p align="center">
+  <img src="confusion_matrix.png" alt="Confusion Matrix" width="700">
+</p>
 
 ---
 
 ## 🔍 Important Features (Random Forest)
 
-![Feature Importance](outputs/feature_importance.png)
+<p align="center">
+  <img src="feature_importance.png" alt="Feature Importance" width="700">
+</p>
 
 ---
 
 ## 📉 Bi-LSTM Training Curves
 
-![Bi-LSTM Training Curves](outputs/bilstm_training_curves.png)
+<p align="center">
+  <img src="bilstm_training_curves.png" alt="Bi-LSTM Training Curves" width="900">
+</p>
 
 ---
 
 ## 📋 Classification Report (Logistic Regression)
+
 *(Note: You can add your specific classification report metrics for Logistic Regression here)*
 
 ---
 
 ## 🏗️ Framework Architecture
 
-![ProbashiShield Framework Architecture](outputs/framework_architecture.png)
+<p align="center">
+  <img src="Screenshot 2026-07-14 112337.png" alt="ProbashiShield Framework Architecture" width="900">
+</p>
+
+---
+
+## 📁 Project Structure
+
+```text
+ProbashiShield/
+│
+├── data/                   # Dataset files
+├── models/                 # Saved trained models
+├── outputs/                # Generated plots and reports
+│   ├── label_distribution.png
+│   ├── model_comparison.png
+│   ├── confusion_matrix.png
+│   ├── feature_importance.png
+│   ├── bilstm_training_curves.png
+│   └── Screenshot 2026-07-14 112337.png
+├── src/                    # Source code for training and evaluation
+└── README.md               # Project documentation
