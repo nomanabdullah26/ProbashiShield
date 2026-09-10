@@ -1,7 +1,14 @@
 # 🛡️ ProbashiShield - AI-Powered Exploitative Clause Detection
 
-ProbashiShield is a machine learning & deep learning pipeline to identify any exploitatively or unfairly written, or void clauses within the German employment contracts of Bangladeshi expatriates, through a dataset of 886 clauses categorized into three categories: valid (711), void (130), and unfair (45). Text preprocessing and feature extraction through TF-IDF (5,000 features, n-grams 1-2) for conventional methods and Keras tokenization for deep learning models have been done considering severe class imbalance with balanced class weights. Five models Dummy Classifier, Logistic Regression, Random Forest, XGBoost, and Bi-LSTM have been trained and tested where Logistic Regression proved the best with accuracy 81.95% and F1-Score 0.8081, which was also confirmed by 5-fold cross-validation results with mean F1-Score 0.8161. Evaluation metrics of the project include confusion matrices (showing the problem of classifying the minority "unfair" class), feature importance plots, and training curve of Bi-LSTM which shows overfitting from epoch 5, along with the architecture of the project in the output folder along with classification reports.
----
+ProbashiShield is a machine learning and deep learning pipeline designed to identify exploitatively written or void clauses within German employment contracts of Bangladeshi expatriates. 
+
+The system is built on a dataset of 886 clauses categorized into three classes: valid (711), void (130), and unfair (45). The pipeline includes:
+
+- **Data Processing:** Text preprocessing and feature extraction using TF-IDF (5,000 features, n-grams 1-2) for conventional methods, and Keras tokenization for deep learning models. Severe class imbalance was handled using balanced class weights.
+- **Model Training:** Five models were trained and tested: Dummy Classifier, Logistic Regression, Random Forest, XGBoost, and Bi-LSTM.
+- **Best Performance:** Logistic Regression proved to be the best model, achieving an accuracy of 81.95% and an F1-Score of 0.8081. This was confirmed by 5-fold cross-validation results with a mean F1-Score of 0.8161.
+- **Evaluation Metrics:** The project includes detailed evaluation metrics such as confusion matrices (highlighting the difficulty in classifying the minority "unfair" class), feature importance plots, and Bi-LSTM training curves showing overfitting from epoch 5. 
+- **Outputs:** All results, including the project architecture diagram and classification reports, are saved in the output folder.
 
 ## 📊 Dataset Overview
 
