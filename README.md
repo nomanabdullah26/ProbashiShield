@@ -27,7 +27,7 @@ Labels: **valid**, **unfair**, **void**
 
 🏆 **Best Model:** Logistic Regression (F1-Score: 0.8081)
 
-![Model Comparison](outputs/model_comparison.png)
+![Model Comparison](confusion_matrix.png)
 
 ---
 
