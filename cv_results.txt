@@ -1,0 +1,3 @@
+Random Forest 5-fold Cross-Validation Results:
+Individual F1-Scores: [0.79226139 0.81244451 0.81045261 0.81244451 0.85304975]
+Mean: 0.8161, Std: 0.0200
